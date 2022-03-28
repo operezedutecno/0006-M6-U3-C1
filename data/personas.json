@@ -1,4 +1,111 @@
 {
-    "ultima_modificacion": "28/03/2022 18:00:00",
-    "personas":[]
+    "ultima_modificacion": "28/03/2022 19:34:03",
+    "personas": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Sacha",
+                "last": "Clement"
+            },
+            "location": {
+                "street": {
+                    "number": 1560,
+                    "name": "Rue Paul Bert"
+                },
+                "city": "Avignon",
+                "state": "Haute-Saône",
+                "country": "France",
+                "postcode": 42062,
+                "coordinates": {
+                    "latitude": "-2.1802",
+                    "longitude": "-66.5311"
+                },
+                "timezone": {
+                    "offset": "+1:00",
+                    "description": "Brussels, Copenhagen, Madrid, Paris"
+                }
+            },
+            "email": "sacha.clement@example.com",
+            "login": {
+                "uuid": "d272f265-07c9-434e-b09c-293202953721",
+                "username": "organicpeacock232",
+                "password": "1235",
+                "salt": "dCVKor59",
+                "md5": "3f2a9df76e2fdfbc572beb010101e338",
+                "sha1": "e88fd83827816dfc149bf323028aa24b64977261",
+                "sha256": "eaf1e809f99e6bbf39c473f1f286068523e30c615242da23f02fe22ad5e24c49"
+            },
+            "dob": {
+                "date": "1976-04-04T07:32:28.699Z",
+                "age": 46
+            },
+            "registered": {
+                "date": "2005-09-22T02:05:02.021Z",
+                "age": 17
+            },
+            "phone": "01-16-32-41-16",
+            "cell": "06-10-89-32-17",
+            "id": "f026978b",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/16.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/16.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/16.jpg"
+            },
+            "nat": "FR"
+        },
+        {
+            "gender": "female",
+            "name": {
+                "title": "Miss",
+                "first": "Kathy",
+                "last": "Flores"
+            },
+            "location": {
+                "street": {
+                    "number": 4042,
+                    "name": "Stanley Road"
+                },
+                "city": "Oxford",
+                "state": "Humberside",
+                "country": "United Kingdom",
+                "postcode": "B26 4LQ",
+                "coordinates": {
+                    "latitude": "7.6559",
+                    "longitude": "40.9633"
+                },
+                "timezone": {
+                    "offset": "-5:00",
+                    "description": "Eastern Time (US & Canada), Bogota, Lima"
+                }
+            },
+            "email": "kathy.flores@example.com",
+            "login": {
+                "uuid": "84136ca8-24c0-418f-8ae7-14af77108373",
+                "username": "lazybutterfly376",
+                "password": "tito",
+                "salt": "rYdeI9GN",
+                "md5": "2cc28a49d96700fbe2362e70a741116a",
+                "sha1": "eaa182ca94e8ad9d810cb8e1d77bef68ab2bae33",
+                "sha256": "486216dc3122ed3824ac8715c7bf2d1d8618016cc050ffbcdb405742c4ea3d07"
+            },
+            "dob": {
+                "date": "1979-10-31T21:55:01.894Z",
+                "age": 43
+            },
+            "registered": {
+                "date": "2019-05-12T08:23:27.227Z",
+                "age": 3
+            },
+            "phone": "015396 81301",
+            "cell": "0712-858-949",
+            "id": "5e6a0cc8",
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/women/45.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/women/45.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/women/45.jpg"
+            },
+            "nat": "GB"
+        }
+    ]
 }
