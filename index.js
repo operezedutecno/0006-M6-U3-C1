@@ -45,3 +45,13 @@ app.get("/listado", (req, res) => {
     res.json(contenido);
 });
 
+
+app.get("/consulta/:id", (req, res) => {
+    let id = req.params.id;
+    let contenido = fs.readFileSync(`${__dirname}/data/personas.json`, "utf8");
+    contenido = JSON.parse(contenido);
+    let persona = contenido.personas.find( persona => persona.id == id)
+    res.setHeader('content-type','application/json');
+    res.json(persona);
+})
+
