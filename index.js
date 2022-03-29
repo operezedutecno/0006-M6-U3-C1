@@ -9,6 +9,7 @@ app.listen(8080, () => console.log("Servidor express activo http://localhost:808
 
 app.use("/bootstrap", express.static(`${__dirname}/node_modules/bootstrap/dist/`));
 app.use("/jquery", express.static(`${__dirname}/node_modules/jquery/dist/`));
+app.use("/assets", express.static(`${__dirname}/assets`))
 
 const urlAPI = "https://randomuser.me/api/";
 
@@ -35,4 +36,12 @@ app.get("/registrar", (req, res) => {
     }).catch(error => {
         res.status(404).send("Ha ocurrido un error consultando el API Pública");
     })
-})
+});
+
+app.get("/listado", (req, res) => {
+    let contenido = fs.readFileSync(`${__dirname}/data/personas.json`, "utf8");
+    contenido = JSON.parse(contenido);
+    res.setHeader('content-type','application/json');
+    res.json(contenido);
+});
+
